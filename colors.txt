@@ -1,0 +1,8 @@
+Gold: #FED966  rgb(254, 217, 102)
+Blue: #4473C5  rgb(68, 115, 197)
+Dark Gold: #F1C92C   rgb(241, 201, 44)
+Dark Blue: #333062   rgb(51, 48, 98)
+Light Blue: #7C9DD6  rgb(124, 157, 214)
+rgb(185, 206, 241)
+
+Gold : rgb(253,215,10) FDD70A

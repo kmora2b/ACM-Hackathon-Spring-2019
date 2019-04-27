@@ -1,0 +1,55 @@
+.hg {
+	margin: 0px;
+	grid-template-columns: 1fr;
+	min-height: 100vh;
+}
+
+h1 {
+	grid-column: 2/3;
+	text-align: center;
+	padding-top: 5em;
+}
+
+#loginForm, #registerForm, #forgotPwdForm {
+	grid-column: 2/3;
+	text-align: center;
+
+	/* Nested Grid */
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 2em;
+}
+
+.form-group {
+	/* Nested Grid */
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 0.5em;
+}
+
+#loginForm input, #registerForm input, #forgotPwdForm input {
+	width: 20em;
+	height: 3em;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+	/* center input boxes */
+	display: grid;
+	justify-self: center;
+}
+
+#registerLink, #forgotPwdLink, #toLoginLink {
+	margin: 2em;
+	text-decoration: none;
+	color: var(--gray-font);
+}
+
+#registerLink:hover, #forgotPwdLink:hover, #toLoginLink:hover {
+	color: var(--dark-color-2, black);
+}
+
+#loginForm button, #registerForm button, #forgotPwdForm button {
+	justify-self: center;
+	width: 10em;
+	height: 3em;
+}
