@@ -1,6 +1,7 @@
 <?php
     include("base.php");
 ?> <
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<div class = "minutesSection">
         <h1 class = "mainTitle"> Events </h1>
         <div class = "divider"></div>
@@ -19,12 +20,25 @@
 		</div>
 		<?php 
 		$events = array("Franklin Mountains Exploration", "Trans Mountain Junction","2019-04-27");
+		$events2 = array("UTEP Alumni Reunion", "UGLC","2019-04-20");
 		
 			echo "<div class = 'event'> 
 			<h2>
-				<img src = 'Images/Agenda/doc.jpg' class = 'docPic'>".$events[0]."</h2> 
-				<h3>Location: ".$events[1]."</h3>
-				<h3>Date: ".$events[2]."</h3>
+				<img src = 'Images/Agenda/doc.jpg' class = 'docPic'>".$events[0]."</h2>
+				
+				<h3><i class='material-icons' style='font-size:20px'>place</i>Location: ".$events[1]."</h3>
+				<h3><i class='material-icons' style='font-size:20px'>rate_review</i>Date: ".$events[2]."</h3>
+			<button>Join</button> 
+			
+			</div>";
+			
+			//TODO: Delete this when db is implmented
+			echo "<div class = 'event'> 
+			<h2>
+				<img src = 'Images/Agenda/doc.jpg' class = 'docPic'>".$events2[0]."</h2>
+				
+				<h3><i class='material-icons' style='font-size:20px'>place</i>Location: ".$events2[1]."</h3>
+				<h3><i class='material-icons' style='font-size:20px'>rate_review</i>Date: ".$events2[2]."</h3>
 			<button>Join</button> 
 			
 			</div>";
