@@ -3,9 +3,30 @@
 ?>
 
 <div class = "feed">
-        <div class = "divider"></div>
-        
-	
+        <div class = "feedEntry">
+            <img class = "feedEntryPic" src = "goodworksep.png">
+            <h3 class = "feedEntryTitle"><strong>Name</strong></h3>
+            <h4 class = "feedEntryTimeDate"><strong>Date - Location</strong></h4>
+            <p class = "feedEntryText">Text description of the things<p>
+        </div>
+        <div class = "feedEntry">
+            <img class = "feedEntryPic" src = "goodworksep.png">
+            <h3 class = "feedEntryTitle"><strong>Name</strong></h3>
+            <h4 class = "feedEntryTimeDate"><strong>Date - Location</strong></h4>
+            <p class = "feedEntryText">Text description of the things<p>
+        </div>
+        <div class = "feedEntry">
+            <img class = "feedEntryPic" src = "goodworksep.png">
+            <h3 class = "feedEntryTitle"><strong>Name</strong></h3>
+            <h4 class = "feedEntryTimeDate"><strong>Date - Location</strong></h4>
+            <p class = "feedEntryText">Text description of the things<p>
+        </div>
+        <div class = "feedEntry">
+            <img class = "feedEntryPic" src = "goodworksep.png">
+            <h3 class = "feedEntryTitle"><strong>Name</strong></h3>
+            <h4 class = "feedEntryTimeDate"><strong>Date - Location</strong></h4>
+            <p class = "feedEntryText">Text description of the things<p>
+        </div>
 </div>
 
 May 11th, 2019 Franklin Mountains Exploration

@@ -29,7 +29,7 @@ html, body{
 }
 
 h1, h2, h3, h4, h5, h6, p, div, a, li, td, th{
-    font-family: "Lato", sans-serif;
+    font-family: "Gill Sans", sans-serif;
 }
 
 
@@ -39,20 +39,41 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, td, th{
 .feed{
     width: 90%;
     margin: 0 auto;
-    display: block;
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    background:#fdd70a;
 }
-
-.feedText{
+.feedEntry {
+    width: 90%;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
-    color: #4473C5;
-    border: 3px solid #4473C5;
-    margin: 0;
-    margin-top: 2%;
-    padding-bottom: 2%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    display:grid;
+    grid-template-columns: 3fr 6fr 2fr;
+    grid-column-gap: 50px; 
+    background:#ffffff;   
 }
 
+.feedEntryTimeDate{
+    grid-column: span 1;
+    grid-row: span 3;
+    color: #3f34e4;
+    border-left: 2px solid black;
+}
+
+.feedEntryPic{
+    width:100%;
+    grid-row: span 2;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.feedEntryText{
+    grid-column: span 1;
+    grid-row: span 2;
+}
 
 
 /************************************** Community Calendar Page **************************************/
@@ -196,7 +217,7 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, td, th{
 .topNavItem a{
     margin: 0;
     padding: 0;
-    font-family: "Lato", sans-serif;
+    font-family: "Gill Sans", sans-serif;
     text-decoration: none;
     color: #FDD70A;
 }
