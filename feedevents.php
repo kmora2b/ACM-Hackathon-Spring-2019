@@ -16,6 +16,11 @@
         <h3 class = "file"><img src = "Images/Agenda/doc.jpg" class = "docPic">
             <a href = "Documents/6-5-18 TWNA Minutes (General Meeting).pdf" target = "_blank">
             June 5th, 2019 UTEP Alumni Gathering </a></h3>
+		<?php 
+		$events = array("Franklin Mountains Exploration", "Animal Shelter Volunteer Event", "El Dorado High School Band Fundraiser", "UTEP Alumni Gathering");
+		foreach ($events as $e){
+			echo "<h3 class = 'file'> <img src = 'Images/Agenda/doc.jpg' class = 'docPic'>".$e."</h3>";
+		}
 	
     </div>
 	
