@@ -35,21 +35,14 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, td, th{
 
 
 /************************************** Index Page **************************************/
-.devMessage{
-    width: 90%;
-    background:#FED966;
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-}
 
-.announcementsGrid{
+.feed{
     width: 90%;
     margin: 0 auto;
     display: block;
 }
 
-.announcementText{
+.feedText{
     text-align: center;
     color: #4473C5;
     border: 3px solid #4473C5;
@@ -60,100 +53,9 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, td, th{
     border-top-right-radius: 10px;
 }
 
-.announcementContent{
-    color: #888;
-}
 
-.announcement{
-    border: 3px solid #4473C5;
-}
-.announcement:last-child{
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
 
-.announcement:nth-child(odd){
-    background: #f5f5f5;
-}
-
-.announcement:nth-child(even){
-    background: #ddd;
-}
-
-.announcementTitle{
-    padding: 2%;
-    color: #4473C5;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-.announcementContent{
-    padding: 2%;
-    padding-top: 0;
-    margin-top: 0;
-}
-
-.main{
-    height: auto;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.announcementsPane{
-    padding: 2%;
-    padding-top:0;
-    margin: 0;
-    max-height: 83vh;
-}
-
-/************************************** Who We Are Page **************************************/
-.whoWeAre{
-    width: 90%;
-    margin: 0 auto;
-    display: block;
-    position: relative;
-    z-index: 1;
-}
-
-.wDivider{
-    width: 80%;
-    background: #FED966;
-    height: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2%;
-    z-index:1;
-}
-
-.statement{
-    margin-bottom: 0;
-    padding-bottom: 0;
-    z-index:1;
-    opacity: 1;
-}
-
-.mission{
-    width: 90%; 
-    margin: 0 auto;
-    z-index: 1;
-    opacity: 1;
-}
-
-.map{
-    width: 95%;
-    height: 70vh;
-    z-index:1;
-    opacity: 1;
-    margin: 0 auto;
-}
-
-.boundaries{
-    z-index:1;
-    opacity: 1;
-}
-
-/************************************** Calendar Page **************************************/
+/************************************** Community Calendar Page **************************************/
 .calendarGrid{
     width: 90%;
     height: 100%;
@@ -202,130 +104,7 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, td, th{
 .missed a:hover{
     background:#7C9DD6;
 }
-/************************************** Agendas Page **************************************/
-.agendasPage{
-    width: 90%;
-    margin: 0 auto;
-    display: block;
-    background: #fff;
-    position: relative;
-}
 
-.agendasSection{
-    z-index: 1;
-}
-
-.minutesSection{
-    z-index: 1;
-}
-
-.mainTitle{
-    color: #4473C5;
-}
-
-.title{
-    color: #4473C5;
-    text-align: center;
-}
-
-.divider{
-    width: 80%;
-    background: #FED966;
-    height: 5px;
-    margin-bottom: 2%;
-}
-
-.agenda{
-    margin: 0;
-    padding: 3%;
-}
-
-.agenda:nth-child(odd){
-    background: #f5f5f5;
-}
-
-.agenda:nth-child(even){
-    background: #ddd;
-}
-.meetingDate{
-    background-color: #FED966;
-    width: 100%;
-    color: #333062;
-    text-align:left;
-    padding: 0;
-    margin: 0;
-}
-
-.topic{
-    margin-left: 3%;
-}
-
-.detail{
-    margin-left: 5%;
-}
-
-.docPic{
-    width: 20px;
-}
-
-.file{
-    margin: 0;
-    padding: 3%;
-}
-
-.file:nth-child(odd){
-    background: #f5f5f5;
-}
-
-.file:nth-child(even){
-    background: #ddd;
-}
-
-.file a{
-    text-decoration: none;
-    color: #4473C5;
-}
-
-.file a:hover{
-    color: #333062;
-}
-
-/************************************** Meet The Officers Page **************************************/
-.officerGrid{
-    width: 90%;
-    margin: 0 auto;
-    display: block;
-    position:relative;
-}
-
-.officer{
-    grid-row:2;
-    z-index: 1;
-}
-
-.officerPhoto{
-    display: block;
-    width: 60%;
-    max-width: 300px;
-    max-height: 400px;
-    border-radius: 25%;
-    margin: 0 auto;
-}
-
-.officerTitle{
-    text-align:center;
-    color: #4473C5;
-}
-
-.officerName{
-    text-align:center;
-    color: #4473C5;
-}
-
-.officerBio{
-    width: 90%;
-    margin: 0 auto;
-}
 /************************************** Gallery Page **************************************/
 .gallery{
     position: relative;
@@ -402,54 +181,7 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, td, th{
     display: grid;
 }
 
-/************************************** Contact Us Page **************************************/
-.contactGrid{
-    width: 90%;
-    margin: 0 auto;
-    padding: 0;
-    height: 100%;
-    background:#fff;
-    position: relative;
-}
 
-fieldset{
-    margin: 0 auto;
-    text-align: center;
-    border: none;
-    font-family: "Lato", sans-serif;
-}
-
-.contact{
-    height: 100%;
-    text-align: center;
-    margin: 0 auto;
-    background: rgb(185, 206, 241);
-}
-
-.contactAside{
-    margin: 0 auto;
-    margin-bottom: 2%;
-    width: 60%;
-}
-
-.field{
-    margin: 0 auto;
-    font-family: "Lato", sans-serif;
-    width: 50%;
-    border-radius: 5px;
-}
-
-.error{
-    margin: 0 auto;
-    color: #f00;
-}
-
-.submitButton, button{
-   border-radius: 5px;
-   background: #4473C5;
-   padding: 1%;
-   color: #fff;
-}
 /******* Responsive Top Nav *******/
 .topNav{
     position: fixed;
@@ -492,7 +224,7 @@ fieldset{
     position: fixed;
     width: 100%;
     height: 50px;
-    background: #4473C5;
+    background: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
     z-index: 2;
@@ -502,7 +234,7 @@ fieldset{
     width: 100%;
     height: 50px;
     margin: 0;    
-    background: #4473C5;
+    background: rgb(0, 0, 0);
     padding: 0;
     z-index: 2;
     border-bottom: solid 2px #FED966;
@@ -565,7 +297,7 @@ fieldset{
         /********** Top Navigation Menu **********/
         .topNav{
             display: grid;
-            grid-template-columns: repeat(7, auto);
+            grid-template-columns: repeat(5, auto);
             grid-template-rows: 50px;
             align-content: center;
             justify-content: space-around;
@@ -616,92 +348,6 @@ fieldset{
         .date{
             grid-column: 1/-1;
             grid-row: 3/ span 1;
-        }
-
-        /************************************** Index Page **************************************/
-
-        .announcementsGrid{
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-        }
-
-        .main{
-            grid-column: 1 / span 8;
-            grid-row: 1;
-        }
-
-        .announcementsPane{
-            grid-column: 9 / span 4;
-            grid-row: 1;
-            display: flex;
-            flex-direction: column;
-            overflow-y: scroll;
-        }
-
-
-        /************************************** Who We Are Page **************************************/
-        .whoWeAre{
-            display: grid;
-            grid-template-columns: 3fr 1fr;
-            grid-template-rows: 1fr 2fr;
-            grid-gap: 3%;
-        }
-
-        .statement{
-            grid-column: 1 / -1;
-            grid-row: 1;
-        }
-
-        .map{
-            grid-column: 1 / span 1;
-            grid-row: 2;
-            justify-self: center;
-            align-self: center;
-        }
-
-        .boundaries{
-            grid-column: 2 / span 1;
-            grid-row: 2;
-        }
-
-        /************************************** Calendar Page **************************************/
-        .calendarGrid{
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            grid-template-rows: 1fr;
-        }
-
-
-        .calendar{
-            grid-column: 1 / span 1;
-            grid-row: 1 / span 1;
-        }
-
-        .upcomingEvents{
-            grid-column: 2 / span 1;
-            grid-row: 1 / span 1;
-        }
-
-        /************************************** Agendas Page **************************************/
-        .agendasPage{
-            display: grid;
-            grid-template-columns: 3fr 2fr;
-            grid-template-rows: 1fr;
-            grid-gap: 5%;
-        }
-
-        /************************************** Meet The Officers Page **************************************/
-        .officerGrid{
-            display: grid;
-            grid-template-columns: repeat(4, 250px);
-            grid-template-rows: 1fr 8fr 1fr;
-            justify-content: space-around;
-        }
-
-        .officerPhoto{
-            max-width: 3000px;
-            max-height: 4000px;
-            margin: 0 20%;
         }
 
     }

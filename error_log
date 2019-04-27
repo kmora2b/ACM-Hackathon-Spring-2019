@@ -1,6 +1,0 @@
-[04-Jun-2018 18:43:20 America/Chicago] PHP Warning:  include(form_process.php): failed to open stream: No such file or directory in /home3/jgutierrez/public_html/contact-us.php on line 3
-[04-Jun-2018 18:43:20 America/Chicago] PHP Warning:  include(form_process.php): failed to open stream: No such file or directory in /home3/jgutierrez/public_html/contact-us.php on line 3
-[04-Jun-2018 18:43:20 America/Chicago] PHP Warning:  include(): Failed opening 'form_process.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/jgutierrez/public_html/contact-us.php on line 3
-[04-Jun-2018 18:44:17 America/Chicago] PHP Warning:  require(PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home3/jgutierrez/public_html/form_process.php on line 2
-[04-Jun-2018 18:44:17 America/Chicago] PHP Warning:  require(PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home3/jgutierrez/public_html/form_process.php on line 2
-[04-Jun-2018 18:44:17 America/Chicago] PHP Fatal error:  require(): Failed opening required 'PHPMailer/src/Exception.php' (include_path='.:/opt/php56/lib/php') in /home3/jgutierrez/public_html/form_process.php on line 2
