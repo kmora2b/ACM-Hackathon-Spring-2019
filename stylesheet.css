@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, td, th{
     margin: 0 auto;
     display: grid;
     grid-auto-rows: minmax(100px, auto);
-    background:#fdd70a;
+    background:#C2DFFF;
 }
 .feedEntry {
     width: 90%;
@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, td, th{
     grid-row: span 3;
     color: #3f34e4;
     border-left: 2px solid black;
+    vertical-align: center;
 }
 
 .feedEntryPic{
