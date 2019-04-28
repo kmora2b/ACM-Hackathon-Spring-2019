@@ -8,7 +8,7 @@
                     array("Images\franklin-732x360.jpg","Franklin Mountains Event","May 20th, 2019", "Franklin Mountains State Park", "Volunteered needed to help clean litter and raise awareness."),);
                     
     echo "<div class = \"feed\">";
-    for ($i=0; $i < 5; $i++){ 
+    for ($i=0; $i < 4; $i++){ 
         
     echo "   <div class = \"feedEntry\">";
     echo "       <img class = \"feedEntryPic\" src = \"".$dummydata[$i][0]."\">";
