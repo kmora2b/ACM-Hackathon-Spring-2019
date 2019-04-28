@@ -3,12 +3,14 @@
 ?>
 <div class = 'profile'> 
 	<div class='profile-info'>
-		<img class = 'user-img'src="Images/Profile/user.png">
+		<img class = 'user-img'src="Images/profile/user.png">
 		<h2 class ='profile-name'>John Doe</h2>
 			
 				<h3>Skills</h3>
-					<h4>SKILL</h4>
-
+					<h4>Teaching</h4>
+					<h4>Tech savvy</h4>
+					<h4>Excel</h4>
+					<h4>Powerpoint</h4>
 			
 	</div>
 
