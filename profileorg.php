@@ -19,7 +19,7 @@
 		<h1>Goals</h1>
 		
 		<div class='profile-goals'>
-			<h3>Acquire 20 new volunteer 	
+			<h3>Acquire 20 new volunteers	
 				<progress class='goal' value="19" max="20"> </progress>		
 			</h3>
 			
