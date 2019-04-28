@@ -2,9 +2,9 @@
     include("base.php");
 ?>
 <?php 
-     $dummydata = array(array("Images\ehs.jpg","Food Drive","April 29th, 2019", "Eastwood High School", "Volunteers needs for food drive."), 
-                    array("Images\park.jpg","Charity Drive","April 30th, 2019", "Album Park", "Help needed at Album Park for annual charity drive."), 
-                    array("Images\20180515_140400.jpg","Community Night","April 30th, 2019", "Esperanza Acosta Moreno Library", "Volunteers needed for community night."), 
+     $dummydata = array(array("Images\ehs.jpg","Food Drive","April 29th, 2019", "Eastwood High School", "Volunteers needed for food drive. 14/20 filled spots. From 2:30 PM - 3:30 PM."), 
+                    array("Images\park.jpg","Charity Drive","April 30th, 2019", "Album Park", "Help needed at Album Park for annual charity drive. 34/40 filled spots. From 8 AM - 12 PM."), 
+                    array("Images\library.jpg","Community Night","April 30th, 2019", "Esperanza Acosta Moreno Library", "Volunteers needed for community night."), 
                     array("Images\frank.jpg","Franklin Mountains Event","May 20th, 2019", "Franklin Mountains State Park", "Volunteers needed to help clean litter and raise awareness."),);
                     
     echo "<div class = \"feed\">";
