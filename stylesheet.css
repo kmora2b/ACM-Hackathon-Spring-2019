@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, td, th{
 }
 
 .calendar{
-    margin: 3% 3%;
+    margin:3% 3%;
     width: 90%;
     height: 90%;
     z-index: 1;
@@ -418,6 +418,16 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, td, th{
     grid-row: span 2;
 }
 
+/************************************** Volunteer Log **************************************/
 
+.log {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.log-header{
+	background-color: #add2ff;
+	font-size:2em;
+}
 
 
