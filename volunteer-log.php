@@ -12,14 +12,9 @@
 		<th># OF HOURS</th>
 	</tr>
 	
-	<tr>
-		<th>TITLE</th>
-		<th>DATE</th>
-		<th>LOCATION</th>
-		<th># OF HOURS</th>
-	</tr>
+
 	<?php
-		$l = array("Franklin Mountains", "2018-05-20", "Trans Mountains","Explorers");
+		$l = array("Franklin Mountains", "2018-05-20", "Trans Mountains","23");
 		echo"<tr>
 			<th>".$l[0]."</th>
 			<th>".$l[1]."</th>
