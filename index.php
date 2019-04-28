@@ -3,10 +3,10 @@
 ?>
 <?php 
 
-     $dummydata = array(array("Images\\ehs.jpg","Food Drive","April 29th, 2019", "Eastwood High School", "Volunteers needs for food drive."), 
-                    array("Images\park.jpg","Charity Drive","April 30th, 2019", "Album Park", "Help needed at Album Park for annual charity drive."), 
-                    array("Images\community.jpg","Community Night","April 30th, 2019", "Esperanza Acosta Moreno Library", "Volunteers needed for community night."), 
-                    array("Images\\frank.jpg","Franklin Mountains Event","May 20th, 2019", "Franklin Mountains State Park", "Volunteered needed to help clean litter and raise awareness."),);
+     $dummydata = array(array("Images\\ehs.jpg","Food Drive","April 29th, 2019", "Eastwood High School", "Volunteers needed for food drive. 14/20 filled spots. From 2:30 PM - 3:30 PM."), 
+                    array("Images\park.jpg","Charity Drive","April 30th, 2019", "Album Park", "Help needed at Album Park for annual charity drive. 34/40 filled spots. From 8 AM - 12 PM."), 
+                    array("Images\community.jpg","Community Night","April 30th, 2019", "Esperanza Acosta Moreno Library", "Volunteers needed for community night. 8/10 filled spots. From 5 PM - 10 PM."), 
+                    array("Images\\frank.jpg","Franklin Mountains Event","May 20th, 2019", "Franklin Mountains State Park", "Volunteeres needed to help clean litter and raise awareness. 15/20 filled spots. From 8:00 AM - 12 PM."),);
               
     echo "<div class = \"feed\">";
     for ($i=0; $i < 4; $i++){ 
