@@ -3,7 +3,7 @@
 ?>
 <div class = 'profile'> 
 	<div class='profile-info'>
-		<img class = 'user-img'src="Images/profile/jane.jpg">
+		<img class = 'user-img'src="Images\Profile\jane.jpg">
 		<h2 class ='profile-name'>Jane Doe</h2>
 			
 				<h3>Skills</h3>
